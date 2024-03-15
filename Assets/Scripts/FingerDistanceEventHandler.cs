@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FingerDistanceEventHandler : MonoBehaviour
 {
@@ -16,7 +17,6 @@ public class FingerDistanceEventHandler : MonoBehaviour
         [SerializeField] private float selectDistance = 0.02f; 
         [SerializeField] private Material yellow;
         [SerializeField] private Material white;
-        [SerializeField] private GameObject freshmanDormScene;
         [SerializeField] private GameObject gatechMap;
         [SerializeField] private GameObject OVRCameraRig;
         [SerializeField] private GameObject infoCard;
@@ -33,10 +33,9 @@ public class FingerDistanceEventHandler : MonoBehaviour
         ridistance = Vector3.Distance (this.transform.position, rightIndex.transform.position);
         licdistance = Vector3.Distance (this.transform.position, leftControllerIndex.transform.position);
         ricdistance = Vector3.Distance (this.transform.position, rightControllerIndex.transform.position);
-        if (lidistance < selectDistance || ridistance < selectDistance || licdistance < selectDistance || ricdistance < selectDistance) {
-            freshmanDormScene.SetActive(true);
-            OVRCameraRig.GetComponent<OVRPassthroughLayer> ().enabled = false;
-            gatechMap.SetActive(false);
+        if (lidistance < selectDistance || ridistance < selectDistance || licdistance < selectDistance || ricdistance < selectDistance)
+        {
+            SceneManager.LoadScene("Freshman Dorm");
         } else if (lidistance < hoverDistance || ridistance < hoverDistance || licdistance < hoverDistance || ricdistance < hoverDistance) {
             this.GetComponent<MeshRenderer> ().material = white;
             infoCard.SetActive(true);
