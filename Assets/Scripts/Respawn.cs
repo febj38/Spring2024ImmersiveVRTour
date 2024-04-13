@@ -8,9 +8,9 @@ using UnityEngine;
 namespace Oculus.Interaction.HandGrab {
     public class Respawn : MonoBehaviour {
 
-        [SerializeField] private GameObject ramenBowl;
+        [SerializeField] private GameObject gameObject;
         [SerializeField] private Transform spawnPoint;
-        [SerializeField] private float spawnValueY;
+        [SerializeField] private float spawnValueY = 0.2f;
         [SerializeField] private Quaternion originalRotation;
         [SerializeField] private HandGrabInteractable handGrab;
         [SerializeField] private PhysicsGrabbable physicsGrab;
@@ -33,7 +33,7 @@ namespace Oculus.Interaction.HandGrab {
         private void Update()
         {
 
-            if (ramenBowl.transform.position.y < spawnValueY && (handGrab == null)) {
+            if (gameObject.transform.position.y < spawnValueY) {
                 RespawnObject();
             }
         }
