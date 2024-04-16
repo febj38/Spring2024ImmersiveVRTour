@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FingerDistanceEventHandler : MonoBehaviour
+public class ExitButton : MonoBehaviour
 {
         [SerializeField] private GameObject leftIndex;
         [SerializeField] private GameObject rightIndex;
@@ -13,14 +13,9 @@ public class FingerDistanceEventHandler : MonoBehaviour
         [SerializeField] private float ridistance;
         [SerializeField] private float licdistance;
         [SerializeField] private float ricdistance;
-        [SerializeField] private float hoverDistance = 0.1f;
-        [SerializeField] private float selectDistance = 0.02f;
+        [SerializeField] private float selectDistance;
         [SerializeField] private string sceneName;
-        [SerializeField] private Material yellow;
-        [SerializeField] private Material white;
-        [SerializeField] private GameObject gatechMap;
         [SerializeField] private GameObject OVRCameraRig;
-        [SerializeField] private GameObject infoCard;
 
     // Start is called before the first frame update
     void Start()
@@ -37,12 +32,6 @@ public class FingerDistanceEventHandler : MonoBehaviour
         if (lidistance < selectDistance || ridistance < selectDistance || licdistance < selectDistance || ricdistance < selectDistance)
         {
             SceneManager.LoadScene(sceneName);
-        } else if (lidistance < hoverDistance || ridistance < hoverDistance || licdistance < hoverDistance || ricdistance < hoverDistance) {
-            this.GetComponent<MeshRenderer> ().material = white;
-            infoCard.SetActive(true);
-        } else {
-            this.GetComponent<MeshRenderer> ().material = yellow;
-            infoCard.SetActive(false);
         }
     }
 }
