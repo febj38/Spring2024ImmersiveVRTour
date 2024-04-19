@@ -3,7 +3,87 @@ guid: 983bc16f7d7fa2c42a27bdbac031ec32
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0000
+    second: {fileID: 2100000, guid: a8f52e3369795ce4d8acdf5c37d4521d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0001
+    second: {fileID: 2100000, guid: 35a379a19fa0b60438ab3ee8e7662b8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0002
+    second: {fileID: 2100000, guid: dc9a8b49ca79f7347b0d01cf8e26c8ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0003
+    second: {fileID: 2100000, guid: 76562422032236344be0dd7d67d76764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0004
+    second: {fileID: 2100000, guid: 674395303d4a2c14fae89f58c99b8e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0005
+    second: {fileID: 2100000, guid: 646984c8b41740446a2d7011b8e60ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0006
+    second: {fileID: 2100000, guid: bce80a9ecbd02cd468edd76897f740a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material0007
+    second: {fileID: 2100000, guid: ec906fa39e2f2f54daa9c2ea44e5107e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0000_map_Kd
+    second: {fileID: 2800000, guid: c4dd2fedc43977f478927e17b8479ab0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0001_map_Kd
+    second: {fileID: 2800000, guid: 0db316dd535958e49bdfa1b2a4b9ae95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0002_map_Kd
+    second: {fileID: 2800000, guid: ef06a9cc6c5f7694584a23f39a1e9d28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0003_map_Kd
+    second: {fileID: 2800000, guid: 590ee90a7cf3f5c41afed3b4f01c1f67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0004_map_Kd
+    second: {fileID: 2800000, guid: 157b9cdcec59f8649a742808b1d40fa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0005_map_Kd
+    second: {fileID: 2800000, guid: 2fd2cb5ebfceb16478edb5e76dd56cc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0006_map_Kd
+    second: {fileID: 2800000, guid: 7e72ffd907a24a44f9fbd2aa2a7cc9ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mesh_lowpoly_material0007_map_Kd
+    second: {fileID: 2800000, guid: 6be2b11d14f4acb40830eba6e78263c2, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
