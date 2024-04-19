@@ -5586,7 +5586,7 @@ GameObject:
   - component: {fileID: 483633968}
   - component: {fileID: 483633967}
   m_Layer: 0
-  m_Name: ShrenikHatHandGrabInteraction
+  m_Name: ShrenikHatHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7110,7 +7110,7 @@ GameObject:
   - component: {fileID: 620819631}
   - component: {fileID: 620819630}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: rightConverseHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12029,7 +12029,7 @@ GameObject:
   - component: {fileID: 1066506217}
   - component: {fileID: 1066506216}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: bandHatHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12503,7 +12503,7 @@ GameObject:
   - component: {fileID: 1114073152}
   - component: {fileID: 1114073156}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: Football1HandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16018,7 +16018,7 @@ GameObject:
   - component: {fileID: 1424048497}
   - component: {fileID: 1424048496}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: sweaterHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18016,7 +18016,7 @@ GameObject:
   - component: {fileID: 1583438336}
   - component: {fileID: 1583438335}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: bandUniformHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22208,7 +22208,7 @@ GameObject:
   - component: {fileID: 1912270659}
   - component: {fileID: 1912270658}
   m_Layer: 0
-  m_Name: ISDK_HandGrabInteraction
+  m_Name: leftConverseHandGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
