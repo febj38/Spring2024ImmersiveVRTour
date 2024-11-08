@@ -36,9 +36,9 @@ public class PanoramaCapture : MonoBehaviour
         tex.ReadPixels(new Rect(0,0,rt.width,rt.height),0,0);
         RenderTexture.active = null;
 
-        byte[] bytes = tex.EncodeToPNG();
+        byte[] bytes = tex.EncodeToJPG(80);
 
-        string path = Application.dataPath + "/PanoramaCaptures/Panorama" + ".png";
+        string path = Application.dataPath + "/PanoramaCaptures/Panorama" + ".jpg";
 
         System.IO.File.WriteAllBytes(path, bytes);
     }
