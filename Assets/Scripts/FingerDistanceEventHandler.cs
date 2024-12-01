@@ -21,6 +21,7 @@ public class FingerDistanceEventHandler : MonoBehaviour
         [SerializeField] private GameObject gatechMap;
         [SerializeField] private GameObject OVRCameraRig;
         [SerializeField] private GameObject infoCard;
+        [SerializeField] private AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -36,13 +37,21 @@ public class FingerDistanceEventHandler : MonoBehaviour
         ricdistance = Vector3.Distance (this.transform.position, rightControllerIndex.transform.position);
         if (lidistance < selectDistance || ridistance < selectDistance || licdistance < selectDistance || ricdistance < selectDistance)
         {
-            SceneManager.LoadScene(sceneName);
+            StartCoroutine(SoundAndSwitch());
         } else if (lidistance < hoverDistance || ridistance < hoverDistance || licdistance < hoverDistance || ricdistance < hoverDistance) {
             this.GetComponent<MeshRenderer> ().material = white;
             infoCard.SetActive(true);
         } else {
             this.GetComponent<MeshRenderer> ().material = yellow;
             infoCard.SetActive(false);
+        }
+    }
+
+    private IEnumerator SoundAndSwitch() {
+        if (audio != null) {
+            audio.Play();
+            yield return new WaitForSeconds(audio.clip.length);
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
