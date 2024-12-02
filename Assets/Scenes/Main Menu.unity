@@ -5355,6 +5355,7 @@ GameObject:
   - component: {fileID: 428563493}
   - component: {fileID: 428563492}
   - component: {fileID: 428563491}
+  - component: {fileID: 428563495}
   m_Layer: 5
   m_Name: Checklist Canvas
   m_TagString: Untagged
@@ -5445,6 +5446,20 @@ RectTransform:
   m_AnchoredPosition: {x: -0.835, y: 1.191}
   m_SizeDelta: {x: 720, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &428563495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428563490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8005eb036e1fef64398d4dfc2f748f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 428563490}
+  speed: 1
 --- !u!1 &432660561
 GameObject:
   m_ObjectHideFlags: 0
