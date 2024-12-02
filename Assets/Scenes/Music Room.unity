@@ -4366,10 +4366,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced28e3898fa78341b2e8d54b99f400d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftIndex: {fileID: 0}
-  rightIndex: {fileID: 0}
-  leftControllerIndex: {fileID: 0}
-  rightControllerIndex: {fileID: 0}
+  leftIndex: {fileID: 451182549}
+  rightIndex: {fileID: 451182548}
+  leftControllerIndex: {fileID: 640416600}
+  rightControllerIndex: {fileID: 2055378673}
   lidistance: 0
   ridistance: 0
   licdistance: 0
@@ -6140,6 +6140,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b703b34357887141b5d8ddf43348f76, type: 3}
+--- !u!1 &451182548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5464827655129924894, guid: 0b703b34357887141b5d8ddf43348f76, type: 3}
+  m_PrefabInstance: {fileID: 451182547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &451182549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3557988703281182662, guid: 0b703b34357887141b5d8ddf43348f76, type: 3}
+  m_PrefabInstance: {fileID: 451182547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &454782697
 GameObject:
   m_ObjectHideFlags: 0
