@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; // Add this to use TextMeshPro
 
 public class ChecklistManager : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class ChecklistManager : MonoBehaviour
 
     [SerializeField] private GameObject checklistItemTemplate;  // Template for checklist items (Toggle UI)
     [SerializeField] private Transform checklistContainer;      // ScrollView Content to hold checklist items
-    [SerializeField] private Text scoreText;                    // Text to display the total score
+    [SerializeField] private TextMeshProUGUI scoreText;         // TextMeshPro for the total score
     [SerializeField] private ScrollRect scrollView;             // Reference to the ScrollView component
 
     private List<string> checklistItems = new List<string>();   // List of all collectible items
@@ -51,30 +52,6 @@ public class ChecklistManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // Placeholder for future collectible integration
-        // Find all collectible items in the scene
-        // Collectible[] collectibles = FindObjectsOfType<Collectible>();
-        // foreach (var collectible in collectibles)
-        // {
-        //     string itemName = collectible.gameObject.name;
-        //     checklistItems.Add(itemName);
-
-        //     GameObject newItem = Instantiate(checklistItemTemplate, checklistContainer);
-        //     newItem.SetActive(true);
-
-        //     Text label = newItem.GetComponentInChildren<Text>();
-        //     if (label != null)
-        //     {
-        //         label.text = itemName;
-        //     }
-
-        //     Toggle toggle = newItem.GetComponent<Toggle>();
-        //     checklistToggles[itemName] = toggle;
-
-        //     // Optional: Subscribe to collectible events in the future
-        //     // collectible.OnCollected += () => MarkItemAsFound(itemName);
-        // }
-
         // Temporary test data for checklist
         string[] testItems = { "Ramen Bowl", "Buzz Prison", "Football", "Band Hat", "Rat Cap" };
         foreach (string itemName in testItems)
@@ -84,7 +61,7 @@ public class ChecklistManager : MonoBehaviour
             GameObject newItem = Instantiate(checklistItemTemplate, checklistContainer);
             newItem.SetActive(true);
 
-            Text label = newItem.GetComponentInChildren<Text>();
+            TextMeshProUGUI label = newItem.GetComponentInChildren<TextMeshProUGUI>();
             if (label != null)
             {
                 label.text = itemName;

@@ -2117,7 +2117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158413422}
   m_Layer: 5
-  m_Name: Content
+  m_Name: Checklist Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5356,6 +5356,7 @@ GameObject:
   - component: {fileID: 428563492}
   - component: {fileID: 428563491}
   - component: {fileID: 428563495}
+  - component: {fileID: 428563496}
   m_Layer: 5
   m_Name: Checklist Canvas
   m_TagString: Untagged
@@ -5460,6 +5461,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTransform: {fileID: 428563490}
   speed: 1
+--- !u!114 &428563496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428563490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058aa7f61a92745c5a43bc729083c9ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checklistItemTemplate: {fileID: 7637950616717597000, guid: ed26f508ea857420aba8e80c18000f6e, type: 3}
+  checklistContainer: {fileID: 158413422}
+  scoreText: {fileID: 1581334339}
+  scrollView: {fileID: 830123917}
 --- !u!1 &432660561
 GameObject:
   m_ObjectHideFlags: 0
