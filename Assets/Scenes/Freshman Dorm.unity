@@ -4099,55 +4099,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1022395429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &306553557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &306553559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8660,6 +8611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -8744,6 +8696,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &729447202
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,43 +11009,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1950126086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &926198978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &926198980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15150,55 +15088,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 341434815}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1344553624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1344553626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16596,55 +16485,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 916522850}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1450958620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1450958622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16856,55 +16696,6 @@ Transform:
   - {fileID: 605021644}
   m_Father: {fileID: 172120217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1482692738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1482692740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22484,55 +22275,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1321758898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1866991278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1866991280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24840,31 +24582,19 @@ PrefabInstance:
       addedObject: {fileID: 1344553626}
     - targetCorrespondingSourceObject: {fileID: 2065274434201389149, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1344553624}
-    - targetCorrespondingSourceObject: {fileID: 2065274434201389149, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1839531661}
     - targetCorrespondingSourceObject: {fileID: 2481278203578069357, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1866991280}
     - targetCorrespondingSourceObject: {fileID: 2481278203578069357, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1866991278}
-    - targetCorrespondingSourceObject: {fileID: 2481278203578069357, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 166422144}
     - targetCorrespondingSourceObject: {fileID: 4134590182248706489, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 926198980}
-    - targetCorrespondingSourceObject: {fileID: 4134590182248706489, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 926198978}
     - targetCorrespondingSourceObject: {fileID: 8760550973817706111, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023988488}
-    - targetCorrespondingSourceObject: {fileID: 8760550973817706111, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2023988486}
     - targetCorrespondingSourceObject: {fileID: 8760550973817706111, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023988489}
@@ -24876,34 +24606,22 @@ PrefabInstance:
       addedObject: {fileID: 1450958622}
     - targetCorrespondingSourceObject: {fileID: 6527279799834936346, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1450958620}
-    - targetCorrespondingSourceObject: {fileID: 6527279799834936346, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 386539057}
     - targetCorrespondingSourceObject: {fileID: 1241048639777790140, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 306553559}
     - targetCorrespondingSourceObject: {fileID: 1241048639777790140, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 306553557}
-    - targetCorrespondingSourceObject: {fileID: 1241048639777790140, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1728042609}
     - targetCorrespondingSourceObject: {fileID: 7364407579668887570, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1482692740}
-    - targetCorrespondingSourceObject: {fileID: 7364407579668887570, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1482692738}
     - targetCorrespondingSourceObject: {fileID: 7435149329723869276, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1412556359}
     - targetCorrespondingSourceObject: {fileID: 1503349015985898022, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023988485}
-    - targetCorrespondingSourceObject: {fileID: 1503349015985898022, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2023988483}
     - targetCorrespondingSourceObject: {fileID: 1503349015985898022, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023988487}
@@ -24948,55 +24666,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3614934137404664579, guid: 7c90e78caf2005d46bc6f202164db9d2, type: 3}
   m_PrefabInstance: {fileID: 2023988474}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2023988483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2023988485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25039,55 +24708,6 @@ MonoBehaviour:
   _handAligment: 1
   _handGrabPoses:
   - {fileID: 2051248259}
---- !u!114 &2023988486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928538483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!82 &2023988487
 AudioSource:
   m_ObjectHideFlags: 0
