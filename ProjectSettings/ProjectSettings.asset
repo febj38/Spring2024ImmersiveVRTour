@@ -138,8 +138,8 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 7581f3ce1bfb4014fbfa8579c4997eee, type: 2}
-  - {fileID: 11400000, guid: eb298ff245b4f6c4d825361d44b7faaf, type: 2}
   - {fileID: -4757989314038399672, guid: ec2043478deb3ce49aea2decea442dc4, type: 2}
+  - {fileID: 11400000, guid: eb298ff245b4f6c4d825361d44b7faaf, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,7 +159,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.EmpathyBytesVIP.Fall2024ImmersiveVRTour
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -269,7 +270,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 1
+  androidUseCustomKeystore: 0
   m_AndroidBanners:
   - width: 320
     height: 180

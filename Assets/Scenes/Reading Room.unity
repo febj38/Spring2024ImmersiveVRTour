@@ -1842,9 +1842,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 000f8a7440f506441b0bc686842da93b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 132420918}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 000f8a7440f506441b0bc686842da93b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 132420917}
   m_SourcePrefab: {fileID: 100100000, guid: 000f8a7440f506441b0bc686842da93b, type: 3}
 --- !u!4 &132420912 stripped
 Transform:
@@ -1921,43 +1918,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &132420917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132420913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &132420918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6160,7 +6120,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 18fdcb6ba860e39458b5759ea8946750, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e4e4b7cd951e1d442a5dfe39fe090583, type: 2}
+      objectReference: {fileID: -876546973899608171, guid: 06dbbd891c8b51749a76e48a5fc70dfb, type: 3}
     - target: {fileID: -7511558181221131132, guid: 18fdcb6ba860e39458b5759ea8946750, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -6215,9 +6175,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18fdcb6ba860e39458b5759ea8946750, type: 3}
       insertIndex: -1
       addedObject: {fileID: 380460985}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18fdcb6ba860e39458b5759ea8946750, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 380460984}
   m_SourcePrefab: {fileID: 100100000, guid: 18fdcb6ba860e39458b5759ea8946750, type: 3}
 --- !u!4 &380460977 stripped
 Transform:
@@ -6294,43 +6251,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &380460984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380460978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &380460985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8339,7 +8259,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c64ec0ba53778734bbaaf27746ecfebe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c6e6c59d9b6d5804bb6c8545ed3b62ec, type: 2}
+      objectReference: {fileID: -876546973899608171, guid: be47f28f2bf22c848b61659b266495c7, type: 3}
     - target: {fileID: 919132149155446097, guid: c64ec0ba53778734bbaaf27746ecfebe, type: 3}
       propertyPath: m_Name
       value: NintendoController
@@ -8378,9 +8298,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c64ec0ba53778734bbaaf27746ecfebe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 561515886}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c64ec0ba53778734bbaaf27746ecfebe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 561515885}
   m_SourcePrefab: {fileID: 100100000, guid: c64ec0ba53778734bbaaf27746ecfebe, type: 3}
 --- !u!4 &561515878 stripped
 Transform:
@@ -8457,43 +8374,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &561515885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561515879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &561515886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8842,7 +8722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9203595536993692839, guid: 0ed42f5d6ca022a43bd2cfea652395b3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0031566352
+      value: 0.0021288632
       objectReference: {fileID: 0}
     - target: {fileID: 9203595536993692839, guid: 0ed42f5d6ca022a43bd2cfea652395b3, type: 3}
       propertyPath: m_LocalScale.y
@@ -9346,6 +9226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 44391a659a3f3b4468ebf02ea2fba7bd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 2661ea83310fbd34d9215b00c4a52468, type: 3}
     - target: {fileID: 919132149155446097, guid: 44391a659a3f3b4468ebf02ea2fba7bd, type: 3}
       propertyPath: m_Name
       value: Bookend2
@@ -9384,9 +9268,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44391a659a3f3b4468ebf02ea2fba7bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 586419386}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 44391a659a3f3b4468ebf02ea2fba7bd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 586419385}
   m_SourcePrefab: {fileID: 100100000, guid: 44391a659a3f3b4468ebf02ea2fba7bd, type: 3}
 --- !u!4 &586419375 stripped
 Transform:
@@ -9463,43 +9344,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &586419385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586419376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &586419386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11864,6 +11708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -11948,6 +11793,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &708564514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13388,6 +13256,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1a9f00639201490429903a5b3a5a1282, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d76f3938fd20be14585ba9f60a28b115, type: 3}
     - target: {fileID: 919132149155446097, guid: 1a9f00639201490429903a5b3a5a1282, type: 3}
       propertyPath: m_Name
       value: BuzzPlaque (1)
@@ -13426,9 +13298,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a9f00639201490429903a5b3a5a1282, type: 3}
       insertIndex: -1
       addedObject: {fileID: 817860357}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a9f00639201490429903a5b3a5a1282, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 817860356}
   m_SourcePrefab: {fileID: 100100000, guid: 1a9f00639201490429903a5b3a5a1282, type: 3}
 --- !u!4 &817860346 stripped
 Transform:
@@ -13505,43 +13374,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &817860356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817860347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &817860357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13782,7 +13614,6 @@ GameObject:
   - component: {fileID: 823246438}
   - component: {fileID: 823246436}
   - component: {fileID: 823246440}
-  - component: {fileID: 823246441}
   m_Layer: 0
   m_Name: ratCapHandGrab
   m_TagString: Untagged
@@ -13938,43 +13769,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _whenCancel:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &823246441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823246434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &827504796
@@ -18578,7 +18372,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2ccb86e0f44d92f40bf707e228598b37, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 62881d50f5deef54e8e6f8ca274c821f, type: 2}
+      objectReference: {fileID: -876546973899608171, guid: e2faf423d0cc300478f5492cb8f35f5b, type: 3}
     - target: {fileID: 919132149155446097, guid: 2ccb86e0f44d92f40bf707e228598b37, type: 3}
       propertyPath: m_Name
       value: AtariController
@@ -18617,9 +18411,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ccb86e0f44d92f40bf707e228598b37, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1194128466}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ccb86e0f44d92f40bf707e228598b37, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1194128465}
   m_SourcePrefab: {fileID: 100100000, guid: 2ccb86e0f44d92f40bf707e228598b37, type: 3}
 --- !u!4 &1194128458 stripped
 Transform:
@@ -18696,43 +18487,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &1194128465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194128459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1194128466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19957,6 +19711,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.985
       objectReference: {fileID: 0}
+    - target: {fileID: -2115594683978481729, guid: 5a81cb511ad7a004c8cdfb791dcdf40d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 13a51e92942b0764f9c2f4aacb6678c1, type: 3}
     - target: {fileID: 915862564056121652, guid: 5a81cb511ad7a004c8cdfb791dcdf40d, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.89
@@ -20016,9 +19774,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a81cb511ad7a004c8cdfb791dcdf40d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1264589683}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a81cb511ad7a004c8cdfb791dcdf40d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1264589682}
   m_SourcePrefab: {fileID: 100100000, guid: 5a81cb511ad7a004c8cdfb791dcdf40d, type: 3}
 --- !u!4 &1264589677 stripped
 Transform:
@@ -20095,43 +19850,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &1264589682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264589678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1264589683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21558,7 +21276,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 780c86d81b604f2489cc8e44521b34f8, type: 2}
+      objectReference: {fileID: -876546973899608171, guid: a9d10faa051ddd24a9b6c0c7ad381058, type: 3}
     - target: {fileID: 919132149155446097, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
       propertyPath: m_Name
       value: Buzz Statue #1
@@ -21591,9 +21309,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1360243346}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1360243345}
   m_SourcePrefab: {fileID: 100100000, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
 --- !u!4 &1360243341 stripped
 Transform:
@@ -21654,43 +21369,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: 39b4da9ea63f655499fd2411a3da60ea, type: 3}
---- !u!114 &1360243345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360243342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1360243346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24031,11 +23709,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9203595536993692839, guid: 0ed42f5d6ca022a43bd2cfea652395b3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0031566352
+      value: 0.0020429634
       objectReference: {fileID: 0}
     - target: {fileID: 9203595536993692839, guid: 0ed42f5d6ca022a43bd2cfea652395b3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.00230932
+      value: 0.0026014491
       objectReference: {fileID: 0}
     - target: {fileID: 9203595536993692839, guid: 0ed42f5d6ca022a43bd2cfea652395b3, type: 3}
       propertyPath: m_LocalScale.z
@@ -31586,6 +31264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.3
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3553f789339dbf544901b82eb5ae8983, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: bf39b60ce5383ca4e9db8e59dabeff5a, type: 3}
     - target: {fileID: 919132149155446097, guid: 3553f789339dbf544901b82eb5ae8983, type: 3}
       propertyPath: m_Name
       value: band_hat
@@ -31621,9 +31303,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3553f789339dbf544901b82eb5ae8983, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1977855183}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3553f789339dbf544901b82eb5ae8983, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1977855182}
   m_SourcePrefab: {fileID: 100100000, guid: 3553f789339dbf544901b82eb5ae8983, type: 3}
 --- !u!4 &1977855175 stripped
 Transform:
@@ -31700,43 +31379,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &1977855182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977855176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1977855183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33137,6 +32779,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 983bc16f7d7fa2c42a27bdbac031ec32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 07127e9f1cda6a042833296e0e34b15f, type: 3}
     - target: {fileID: 919132149155446097, guid: 983bc16f7d7fa2c42a27bdbac031ec32, type: 3}
       propertyPath: m_Name
       value: band_uniform
@@ -33172,9 +32818,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 983bc16f7d7fa2c42a27bdbac031ec32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2090923390}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 983bc16f7d7fa2c42a27bdbac031ec32, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2090923389}
   m_SourcePrefab: {fileID: 100100000, guid: 983bc16f7d7fa2c42a27bdbac031ec32, type: 3}
 --- !u!4 &2090923382 stripped
 Transform:
@@ -33251,43 +32894,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &2090923389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090923383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2090923390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33893,7 +33499,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 60ae4f2783210b943b4f6fa45b04fc52, type: 2}
+  - {fileID: -876546973899608171, guid: 2ff4180e69bf99d499008116c03a6ea2, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34059,7 +33665,6 @@ GameObject:
   - component: {fileID: 3339326451999114914}
   - component: {fileID: 3339326451999114918}
   - component: {fileID: 3339326451999114917}
-  - component: {fileID: 3339326451999114916}
   m_Layer: 0
   m_Name: RightConverse
   m_TagString: Untagged
@@ -34547,7 +34152,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4611759551533685079, guid: d270831ad9caecc478f61bba8b02632c, type: 3}
+  - {fileID: -876546973899608171, guid: dbc027c87d1955c49ae699d68a7ef87f, type: 3}
   - {fileID: -5635484798206224817, guid: d270831ad9caecc478f61bba8b02632c, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -34844,7 +34449,6 @@ GameObject:
   - component: {fileID: 4058255648827410459}
   - component: {fileID: 4058255648827410457}
   - component: {fileID: 4058255648827410456}
-  - component: {fileID: 4058255648827410461}
   m_Layer: 0
   m_Name: Football1
   m_TagString: Untagged
@@ -35351,43 +34955,6 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
---- !u!114 &3339326451999114916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347597249232130945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &3339326451999114917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35760,7 +35327,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f90656e40f24cad48a7b13ebef358cab, type: 2}
+  - {fileID: -876546973899608171, guid: e55e46f813ab758479370b63976c472e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35982,43 +35549,6 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
---- !u!114 &4058255648827410461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2544866335406107073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!33 &4064878129823332995
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -36652,7 +36182,6 @@ GameObject:
   - component: {fileID: 9186777349438471014}
   - component: {fileID: 9186777349438471013}
   - component: {fileID: 9186777349438471012}
-  - component: {fileID: 9186777349438471011}
   m_Layer: 0
   m_Name: left_converse
   m_TagString: Untagged
@@ -37257,7 +36786,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f8b9cb642f2e05d42acd8c53d1c92151, type: 2}
+  - {fileID: -876546973899608171, guid: 4ae7ff7d0df99c64eb9f97fa69ca8819, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38434,7 +37963,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5d4f6cb82c22ad647909ff8c62fa5147, type: 2}
+  - {fileID: -876546973899608171, guid: b4391163cd339a844ace9284c09b11f0, type: 3}
   - {fileID: 2100000, guid: be9be18ca7df14646a82dc9356fdf072, type: 2}
   - {fileID: 2100000, guid: 86282a330029799468194b5c5fffa3a4, type: 2}
   - {fileID: 2100000, guid: cd378b6f698d68a449cfa94e3ee551f1, type: 2}
@@ -39288,43 +38817,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _sleepFrames: 0
---- !u!114 &9186777349438471011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871195409308790336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelectingInteractorViewRemoved:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &9186777349438471012
 MonoBehaviour:
   m_ObjectHideFlags: 0
