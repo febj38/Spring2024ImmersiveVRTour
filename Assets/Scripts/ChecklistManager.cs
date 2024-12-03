@@ -27,6 +27,12 @@ public class ChecklistManager : MonoBehaviour
         {
             Destroy(gameObject);  // Destroy any duplicate instances
         }
+
+        // Validate required references
+        if (checklistItemTemplate == null) Debug.LogWarning("Checklist Item Template is not assigned!");
+        if (checklistContainer == null) Debug.LogWarning("Checklist Container is not assigned!");
+        if (scoreText == null) Debug.LogWarning("Score Text is not assigned!");
+        if (scrollView == null) Debug.LogWarning("Scroll View is not assigned!");
     }
 
     private void Start()
@@ -39,33 +45,55 @@ public class ChecklistManager : MonoBehaviour
     // Adds all collectibles to the checklist at the start
     private void PopulateChecklist()
     {
-        // Find all collectible items in the scene
-        Collectible[] collectibles = FindObjectsOfType<Collectible>();
-        foreach (var collectible in collectibles)
+        // Clear existing checklist items
+        foreach (Transform child in checklistContainer)
         {
-            string itemName = collectible.gameObject.name;
+            Destroy(child.gameObject);
+        }
+
+        // Placeholder for future collectible integration
+        // Find all collectible items in the scene
+        // Collectible[] collectibles = FindObjectsOfType<Collectible>();
+        // foreach (var collectible in collectibles)
+        // {
+        //     string itemName = collectible.gameObject.name;
+        //     checklistItems.Add(itemName);
+
+        //     GameObject newItem = Instantiate(checklistItemTemplate, checklistContainer);
+        //     newItem.SetActive(true);
+
+        //     Text label = newItem.GetComponentInChildren<Text>();
+        //     if (label != null)
+        //     {
+        //         label.text = itemName;
+        //     }
+
+        //     Toggle toggle = newItem.GetComponent<Toggle>();
+        //     checklistToggles[itemName] = toggle;
+
+        //     // Optional: Subscribe to collectible events in the future
+        //     // collectible.OnCollected += () => MarkItemAsFound(itemName);
+        // }
+
+        // Temporary test data for checklist
+        string[] testItems = { "Ramen Bowl", "Buzz Prison", "Football", "Band Hat", "Rat Cap" };
+        foreach (string itemName in testItems)
+        {
             checklistItems.Add(itemName);
 
-            // Instantiate a new toggle for each checklist item
             GameObject newItem = Instantiate(checklistItemTemplate, checklistContainer);
-            newItem.SetActive(true);  // Ensure the item is visible
+            newItem.SetActive(true);
 
-            // Set the label text to the item name
             Text label = newItem.GetComponentInChildren<Text>();
             if (label != null)
             {
                 label.text = itemName;
             }
 
-            // Get the Toggle component and store it in the dictionary for later reference
             Toggle toggle = newItem.GetComponent<Toggle>();
             checklistToggles[itemName] = toggle;
-
-            // Commented out the OnCollected event subscription for now
-            // collectible.OnCollected += () => MarkItemAsFound(itemName);
         }
 
-        // Adjust Content Size for ScrollView
         UpdateContentSize();
     }
 
@@ -78,7 +106,6 @@ public class ChecklistManager : MonoBehaviour
             float spacing = checklistContainer.GetComponent<VerticalLayoutGroup>().spacing;
             float totalHeight = (itemHeight + spacing) * checklistItems.Count;
 
-            // Update the height of the Content's RectTransform
             rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, totalHeight);
         }
     }
@@ -114,7 +141,14 @@ public class ChecklistManager : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Items Found: " + totalScore + "/" + checklistItems.Count;
+            scoreText.text = "Items Found: " + totalScore;
         }
+    }
+
+    // Method to refresh the checklist (e.g., for dynamic updates)
+    public void RefreshChecklist()
+    {
+        PopulateChecklist();
+        UpdateScoreDisplay();
     }
 }
