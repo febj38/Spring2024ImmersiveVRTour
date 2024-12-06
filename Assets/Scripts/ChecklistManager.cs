@@ -12,9 +12,9 @@ public class ChecklistManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;         // TextMeshPro for the total score
     [SerializeField] private ScrollRect scrollView;             // Reference to the ScrollView component
 
-    private List<string> checklistItems = new List<string>();   // List of all collectible items
+    public List<string> checklistItems = new List<string>();   // List of all collectible items
     private Dictionary<string, Toggle> checklistToggles = new Dictionary<string, Toggle>();  // Dictionary to map item names to their Toggles
-    private int totalScore = 0;                                 // Total score or items found count
+    public int totalScore = 0;                                 // Total score or items found count
 
     private void Awake()
     {
